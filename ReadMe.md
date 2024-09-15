@@ -1,3 +1,5 @@
+<h1 align="center">Hi 👋, I'm Abhinav Singh</h1>
+<h3 align="center">Aspiring Full Stack Developer</h3>
 # 💫 About Me:
 💡 Actively learning JavaScript, SQL and various Mern Stack tools.<br>📚 I am working on data structures at the moment to reinforce my core understanding<br>
 
