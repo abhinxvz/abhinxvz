@@ -1,6 +1,7 @@
 # 💫 About Me:
 💡 Actively learning JavaScript, SQL and various Mern Stack tools.<br>📚 I am working on data structures at the moment to reinforce my core understanding<br>
 
+How to reach me abhinxv18@gmail.com
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/abhinxv.exe) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/abhinav-singh-a33026269) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@abhinxv18) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/s3c0nfl1ct2077) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/ishowr4ge) 
