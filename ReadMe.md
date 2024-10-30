@@ -1,6 +1,6 @@
 # 💫 About Me:
 💡 Actively learning JavaScript, SQL and various Mern Stack tools.<br>📚 I am working on data structures at the moment to reinforce my core understanding!<br>
-![image-asset](https://github.com/user-attachments/assets/f14c41de-1593-4254-b593-904e042c79c8)
+![image-asset](https://github.com/user-attachments/assets/9be5a7cc-74a8-4f42-9410-521299833d04)
 
 How to reach me abhinxv18@gmail.com
 
