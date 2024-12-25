@@ -1,5 +1,5 @@
 # 💫 About Me:
-💡 Actively learning JavaScript, SQL and various Mern Stack tools.<br>📚 I am working on data structures at the moment to reinforce my core understanding!<br>
+👋 Hello, I'm Abhinav! > 20-year-old web dev enthusiast | hobbyist coder | constantly learning, coding, and designing in my free time.
 ![image-asset](https://github.com/user-attachments/assets/9be5a7cc-74a8-4f42-9410-521299833d04)
 
 How to reach me abhinxv18@gmail.com
