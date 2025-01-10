@@ -21,7 +21,6 @@ How to reach me abhinxv18@gmail.com
 ---
 [![](https://visitcount.itsvg.in/api?id=abhinxvz&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<br clear="both">
 
 
 
