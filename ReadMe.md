@@ -1,8 +1,6 @@
 ## About Me:
 Sup , I'm Abhinav! > 20-year-old web dev enthusiast | hobbyist coder | constantly learning, coding, and designing in my free time.
 
-![image-asset](https://github.com/user-attachments/assets/9be5a7cc-74a8-4f42-9410-521299833d04)
-
 ## Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/abhinxv.exe) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/abhinav-singh-a33026269) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/ishowr4ge) 
 
