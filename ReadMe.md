@@ -17,6 +17,6 @@ I'm Abhinav ! 20-year-old web dev enthusiast | hobbyist coder | constantly learn
 
 <div align="center">
 <p>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Harruta&theme=xcode&bg_color=000000&color=ffffff&line=ffffff&point=ffffff&area=true&hide_border=true" alt="Tactical Support Unit Analysis">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=abhinxvz&theme=xcode&bg_color=000000&color=ffffff&line=ffffff&point=ffffff&area=true&hide_border=true" alt="Tactical Support Unit Analysis">
 </p>
 </div>
