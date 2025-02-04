@@ -15,4 +15,8 @@ I'm Abhinav ! 20-year-old web dev enthusiast | hobbyist coder | constantly learn
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=abhinxvz&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
-[![](https://visitcount.itsvg.in/api?id=abhasjaiswal&icon=0&color=0)](https://visitcount.itsvg.in)
+<div align="center">
+<p>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Harruta&theme=xcode&bg_color=000000&color=ffffff&line=ffffff&point=ffffff&area=true&hide_border=true" alt="Tactical Support Unit Analysis">
+</p>
+</div>
