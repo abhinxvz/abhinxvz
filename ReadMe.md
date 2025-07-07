@@ -8,9 +8,6 @@ i am abhinav! 21-year-old web developer | hobbyist coder | constantly learning, 
 ![](https://github-readme-streak-stats.herokuapp.com/?user=abhinxvz&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=abhinxvz&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-### 🔝 top contributed repo
-![](https://github-contributor-stats.vercel.app/api?username=abhinxvz&limit=5&theme=dark&combine_all_yearly_contributions=true)
-
 <div align="center">
 <p>
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=abhinxvz&theme=xcode&bg_color=000000&color=ffffff&line=ffffff&point=ffffff&area=true&hide_border=true" alt="Tactical Support Unit Analysis">
