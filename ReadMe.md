@@ -5,5 +5,6 @@ i am abhinav! 21-year-old web developer | hobbyist coder | constantly learning, 
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=abhinxvz&theme=xcode&bg_color=000000&color=ffffff&line=ffffff&point=ffffff&area=true&hide_border=true" alt="Tactical Support Unit Analysis">
 </p>
 </div>
+
 ## socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/abhinav-singh-a33026269) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/ishowr4ge) 
