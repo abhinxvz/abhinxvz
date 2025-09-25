@@ -1,5 +1,5 @@
 ## about me:
-i am abhinav! 21 year old full stack dev | hobbyist coder | constantly learning, coding, yapping and designing in my free time.
+i am abhinav! 21 year old full stack dev | hobbyist coder | constantly learning, coding and designing in my free time.
 <div align="center">
 <p>
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=abhinxvz&theme=xcode&bg_color=000000&color=ffffff&line=ffffff&point=ffffff&area=true&hide_border=true" alt="Tactical Support Unit Analysis">
