@@ -6,8 +6,9 @@ i am abhinav! 21 year old full stack dev | hobbyist coder | constantly learning,
 </p>
 </div>
 <div align="center">
-  <img src="https://leetcard.jacoblin.cool/abhinavvvz?theme=dark&font=Karma&ext=activity" />
+  <img src="https://leetcard.jacoblin.cool/abhinavvvz?theme=dark&ext=activity&border=0" />
 </div>
+
 
 ## socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/abhinav-singh-a33026269)
