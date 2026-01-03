@@ -6,7 +6,7 @@ i am abhinav! 21 year old full stack dev | hobbyist coder | constantly learning,
 </p>
 </div>
 <div align="center">
-  <img src="https://leetcard.jacoblin.cool/abhinavvvz?theme=dark&ext=activity&border=0&radius=8" />
+  <img src="https://leetcard.jacoblin.cool/abhinavvvz?ext=activity&theme=dark&border=0" />
 </div>
 
 
