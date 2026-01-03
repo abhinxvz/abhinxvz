@@ -6,7 +6,7 @@ i am abhinav! 21 year old full stack dev | hobbyist coder | constantly learning,
 </p>
 </div>
 <div align="center">
-  <img src="https://leetcode-stats-six.vercel.app/api?username=abhinxvz&theme=dark" alt="LeetCode Activity Graph" />
+  <img src="https://leetcode-stats-six.vercel.app/api?username=abhinavvvz&theme=dark" alt="LeetCode Activity Graph" />
 </div>
 
 ## socials:
