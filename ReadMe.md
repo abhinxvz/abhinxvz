@@ -1,10 +1,5 @@
 ## about me:
 i am abhinav! 21 year old full stack dev | hobbyist coder, web engineer, front-end and back-end infrastructure enthusiast.
-<div align="center">
-<p>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=abhinxvz&theme=xcode&bg_color=000000&color=ffffff&line=ffffff&point=ffffff&area=true&hide_border=true" alt="contribution graph">
-</p>
-</div>
 
 ## socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/abhinav-singh-a33026269)
