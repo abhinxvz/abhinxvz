@@ -27,9 +27,16 @@ def main():
     ascii_art_sets = cardlib.load_ascii_art_sets(repo_root)
 
     headers = cardlib.make_headers(os.environ.get("GITHUB_TOKEN"))
-    user = cardlib.get_user(headers)
-    repos = cardlib.get_repos(headers)
-    sections = cardlib.build_sections(user, repos, headers)
+    try:
+        user = cardlib.get_user(headers)
+        repos = cardlib.get_repos(headers)
+        sections = cardlib.build_sections(user, repos, headers)
+    except Exception as e:
+        if os.path.exists(svg_path):
+            print(f"Notice: GitHub API fetch failed ({e}). Preserving existing stats from SVG.")
+            sections = cardlib.load_existing_sections(svg_path)
+        else:
+            raise
     svg = cardlib.build_svg_animated(ascii_art_sets, sections)
 
     with open(svg_path, "w", encoding="utf-8") as f:

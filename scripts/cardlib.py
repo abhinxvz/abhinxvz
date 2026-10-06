@@ -6,8 +6,10 @@ fallback SVG into the repo via GitHub Actions) and scripts/server.py / Cloudflar
 the dynamic version).
 """
 import os
+import re
 import datetime
 import urllib.request
+import urllib.error
 import json
 from concurrent.futures import ThreadPoolExecutor
 
@@ -114,14 +116,36 @@ def get_repo_commits(r, headers):
                 {"author": USERNAME, "per_page": 100},
             )
             return len(data)
+    except urllib.error.HTTPError as e:
+        if e.code == 403:
+            raise
+        return 0
     except Exception:
         return 0
 
 
 def get_total_commits(repos, headers):
-    with ThreadPoolExecutor(max_workers=10) as executor:
-        results = executor.map(lambda r: get_repo_commits(r, headers), repos)
-    return sum(results)
+    try:
+        with ThreadPoolExecutor(max_workers=10) as executor:
+            results = list(executor.map(lambda r: get_repo_commits(r, headers), repos))
+        total = sum(results)
+        if total > 0:
+            return total
+    except Exception:
+        pass
+    # Fallback: preserve existing commit count from profile-card.svg if available
+    try:
+        repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        svg_path = os.path.join(repo_root, "profile-card.svg")
+        if os.path.exists(svg_path):
+            with open(svg_path, "r", encoding="utf-8") as f:
+                content = f.read()
+            m = re.search(r'Total Commits</text>.*?fill="[^"]+">(\d+)</text>', content)
+            if m:
+                return int(m.group(1))
+    except Exception:
+        pass
+    return 0
 
 
 def uptime_str(created_at):
@@ -167,6 +191,36 @@ def build_sections(user, repos, headers):
     ]
 
 
+def load_existing_sections(svg_path):
+    if not os.path.exists(svg_path):
+        return []
+    with open(svg_path, "r", encoding="utf-8") as f:
+        content = f.read()
+    row_pattern = re.compile(
+        r'<text [^>]+fill="' + re.escape(LABEL_COLOR) + r'">([^<]+)</text>'
+        r'<text [^>]+fill="' + re.escape(CONNECTOR_COLOR) + r'">[^<]+</text>'
+        r'<text [^>]+fill="' + re.escape(VALUE_COLOR) + r'">([^<]+)</text>'
+    )
+    rows = dict(row_pattern.findall(content))
+    return [
+        ("GitHub", [
+            ("Username", rows.get("Username", USERNAME)),
+            ("Uptime", rows.get("Uptime", "3 yrs")),
+            ("Location", rows.get("Location", "earth")),
+        ]),
+        ("Contact", [
+            ("Website", rows.get("Website", "abhinav-singh.tech")),
+            ("GitHub", rows.get("GitHub", f"github.com/{USERNAME}")),
+        ]),
+        ("Stats", [
+            ("Public Repos", rows.get("Public Repos", "0")),
+            ("Total Stars", rows.get("Total Stars", "0")),
+            ("Total Commits", rows.get("Total Commits", "0")),
+            ("Followers", rows.get("Followers", "0")),
+        ]),
+    ]
+
+
 def load_ascii_art_sets(repo_root):
     path = os.path.join(repo_root, "ascii_arts.txt")
     with open(path, "r", encoding="utf-8") as f:
@@ -194,12 +248,12 @@ def _right_lines_from_sections(sections):
     return right_lines
 
 
-def _line_width(kind, payload):
+def _line_width(kind, payload, max_label_chars=0):
     if kind == "header":
         return len(payload)
     connector, label, value = payload
-    # connector(2) + space + label + " ➜ " + value, in character cells
-    return 2 + 1 + len(label) + 3 + len(value)
+    # connector(2) + space(1) + max_label_chars + space(1) + "➜"(1) + space(1) + value
+    return 3 + max_label_chars + 3 + len(value)
 
 
 def _prompt_text(width):
@@ -224,7 +278,7 @@ def _art_text(ascii_lines):
     return parts
 
 
-def _stats_text(right_lines, right_x):
+def _stats_text(right_lines, right_x, max_label_chars):
     parts = []
     for i, (kind, payload) in enumerate(right_lines):
         y = CONTENT_TOP + (i + 1) * LINE_HEIGHT
@@ -235,14 +289,16 @@ def _stats_text(right_lines, right_x):
             )
         elif kind == "row":
             connector, label, value = payload
+            arrow_x = right_x + (3 + max_label_chars + 1) * CHAR_WIDTH
+            value_x = right_x + (3 + max_label_chars + 3) * CHAR_WIDTH
             parts.append(
                 f'<text x="{right_x:.1f}" y="{y:.1f}" font-size="{FONT_SIZE}" fill="{CONNECTOR_COLOR}">'
                 f'{connector} </text>'
                 f'<text x="{right_x + 3 * CHAR_WIDTH:.1f}" y="{y:.1f}" font-size="{FONT_SIZE}" '
                 f'fill="{LABEL_COLOR}">{escape_xml(label)}</text>'
-                f'<text x="{right_x + (3 + len(label) + 1) * CHAR_WIDTH:.1f}" y="{y:.1f}" '
-                f'font-size="{FONT_SIZE}" fill="{CONNECTOR_COLOR}"> ➜ </text>'
-                f'<text x="{right_x + (3 + len(label) + 5) * CHAR_WIDTH:.1f}" y="{y:.1f}" '
+                f'<text x="{arrow_x:.1f}" y="{y:.1f}" '
+                f'font-size="{FONT_SIZE}" fill="{CONNECTOR_COLOR}">➜</text>'
+                f'<text x="{value_x:.1f}" y="{y:.1f}" '
                 f'font-size="{FONT_SIZE}" fill="{VALUE_COLOR}">{escape_xml(value)}</text>'
             )
     return parts
@@ -268,12 +324,16 @@ def build_svg_animated(ascii_art_sets, sections):
     gracefully as a plain file with no server behind it.
     """
     right_lines = _right_lines_from_sections(sections)
+    max_label_chars = max(
+        (len(label) for kind, payload in right_lines if kind == "row" for _, label, _ in [payload]),
+        default=0,
+    )
     ascii_width = max(
         (len(line) for art in ascii_art_sets for line in art), default=0
     ) * CHAR_WIDTH
     right_x = LEFT_PAD + ascii_width + COLUMN_GAP
     max_right_chars = max(
-        (_line_width(kind, payload) for kind, payload in right_lines if kind != "gap"),
+        (_line_width(kind, payload, max_label_chars) for kind, payload in right_lines if kind != "gap"),
         default=0,
     )
     max_art_lines = max((len(art) for art in ascii_art_sets), default=0)
@@ -296,7 +356,7 @@ def build_svg_animated(ascii_art_sets, sections):
                 f'values="{";".join(values)}"/>'
             )
         body.append("</g>")
-    body.extend(_stats_text(right_lines, right_x))
+    body.extend(_stats_text(right_lines, right_x, max_label_chars))
     return _svg_frame(width, height, body)
 
 
@@ -309,19 +369,23 @@ def build_svg_frame(ascii_art_sets, sections, art_index):
     """
     ascii_lines = ascii_art_sets[art_index % len(ascii_art_sets)]
     right_lines = _right_lines_from_sections(sections)
+    max_label_chars = max(
+        (len(label) for kind, payload in right_lines if kind == "row" for _, label, _ in [payload]),
+        default=0,
+    )
     ascii_width = max(
         (len(line) for art in ascii_art_sets for line in art), default=0
     ) * CHAR_WIDTH
     right_x = LEFT_PAD + ascii_width + COLUMN_GAP
     max_right_chars = max(
-        (_line_width(kind, payload) for kind, payload in right_lines if kind != "gap"),
+        (_line_width(kind, payload, max_label_chars) for kind, payload in right_lines if kind != "gap"),
         default=0,
     )
     max_art_lines = max((len(art) for art in ascii_art_sets), default=0)
     height = CONTENT_TOP + BOTTOM_PAD + max(max_art_lines, len(right_lines)) * LINE_HEIGHT
     width = right_x + max_right_chars * CHAR_WIDTH + RIGHT_PAD
 
-    body = _prompt_text(width) + _art_text(ascii_lines) + _stats_text(right_lines, right_x)
+    body = _prompt_text(width) + _art_text(ascii_lines) + _stats_text(right_lines, right_x, max_label_chars)
     return _svg_frame(width, height, body)
 
 

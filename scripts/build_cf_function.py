@@ -156,21 +156,29 @@ function rightLinesFromSections(sections) {{
   return lines;
 }}
 
-function lineWidth(kind, payload) {{
+function lineWidth(kind, payload, maxLabelChars) {{
   if (kind === "header") return payload.length;
   const [, label, value] = payload;
-  return 2 + 1 + label.length + 3 + value.length;
+  return 3 + maxLabelChars + 3 + value.length;
 }}
 
 function buildSvgFrame(asciiArtSets, sections, artIndex) {{
   const asciiLines = asciiArtSets[artIndex % asciiArtSets.length];
   const rightLines = rightLinesFromSections(sections);
+  const maxLabelChars = Math.max(
+    0,
+    ...rightLines
+      .filter(([k]) => k === "row")
+      .map(([, [, label]]) => label.length)
+  );
   const asciiWidth =
     Math.max(0, ...asciiArtSets.flat().map((l) => l.length)) * CHAR_WIDTH;
   const rightX = LEFT_PAD + asciiWidth + COLUMN_GAP;
   const maxRightChars = Math.max(
     0,
-    ...rightLines.filter(([k]) => k !== "gap").map(([k, p]) => lineWidth(k, p))
+    ...rightLines
+      .filter(([k]) => k !== "gap")
+      .map(([k, p]) => lineWidth(k, p, maxLabelChars))
   );
   const maxArtLines = Math.max(...asciiArtSets.map((a) => a.length));
   const height =
@@ -209,6 +217,8 @@ function buildSvgFrame(asciiArtSets, sections, artIndex) {{
       );
     }} else if (kind === "row") {{
       const [connector, label, value] = payload;
+      const arrowX = rightX + (3 + maxLabelChars + 1) * CHAR_WIDTH;
+      const valueX = rightX + (3 + maxLabelChars + 3) * CHAR_WIDTH;
       parts.push(
         `<text x="${{rightX.toFixed(1)}}" y="${{y.toFixed(1)}}" font-size="${{FONT_SIZE}}" fill="${{CONNECTOR_COLOR}}">${{connector}} </text>`
       );
@@ -216,10 +226,10 @@ function buildSvgFrame(asciiArtSets, sections, artIndex) {{
         `<text x="${{(rightX + 3 * CHAR_WIDTH).toFixed(1)}}" y="${{y.toFixed(1)}}" font-size="${{FONT_SIZE}}" fill="${{LABEL_COLOR}}">${{escapeXml(label)}}</text>`
       );
       parts.push(
-        `<text x="${{(rightX + (3 + label.length + 1) * CHAR_WIDTH).toFixed(1)}}" y="${{y.toFixed(1)}}" font-size="${{FONT_SIZE}}" fill="${{CONNECTOR_COLOR}}"> \\u279c </text>`
+        `<text x="${{arrowX.toFixed(1)}}" y="${{y.toFixed(1)}}" font-size="${{FONT_SIZE}}" fill="${{CONNECTOR_COLOR}}">\\u279c</text>`
       );
       parts.push(
-        `<text x="${{(rightX + (3 + label.length + 5) * CHAR_WIDTH).toFixed(1)}}" y="${{y.toFixed(1)}}" font-size="${{FONT_SIZE}}" fill="${{VALUE_COLOR}}">${{escapeXml(value)}}</text>`
+        `<text x="${{valueX.toFixed(1)}}" y="${{y.toFixed(1)}}" font-size="${{FONT_SIZE}}" fill="${{VALUE_COLOR}}">${{escapeXml(value)}}</text>`
       );
     }}
   }});
