@@ -1,0 +1,313 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="802" height="284" viewBox="0 0 802 284" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace">
+<rect width="802" height="284" rx="12" fill="#0d1117" stroke="#30363d"/>
+<text x="20" y="39.0" font-size="15" fill="#8a4a4a" xml:space="preserve">abhinxvz@github:~$ gitfetch --heatmap</text>
+<line x1="20" y1="47.0" x2="782.0" y2="47.0" stroke="#30363d"/>
+<g opacity="1">
+<text x="104" y="74.0" font-size="15" fill="#ff8c69" xml:space="preserve">      aug   sep       oct     nov     dec       jan     feb       </text>
+<text x="104" y="94.0" font-size="15" fill="#8a4a4a" xml:space="preserve">mon   </text>
+<text x="158" y="94.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▓ ▒ · · ░ · · ▓ ▓ █ ▒ · ░ · · · ▓ ▓ █ █ · ▒ ░ ░ · ▒ █ ▒ █ ░ </text>
+<text x="104" y="114.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="114.0" font-size="15" fill="#ff5f5f" xml:space="preserve">░ █ · · ░ · ▓ ▒ ▓ █ ▓ ▒ · ░ ▒ · · ▓ ▓ ▓ ▓ · ▒ ▒ ▓ ▒ ░ ▒ ·   </text>
+<text x="104" y="134.0" font-size="15" fill="#8a4a4a" xml:space="preserve">wed   </text>
+<text x="158" y="134.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▓ · · · ░ · ▒ ▓ ▒ █ ▓ ▒ · ░ ▒ · ░ █ █ ▒ · · ▒ ▒ · ▒ ▓ ░ █   </text>
+<text x="104" y="154.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="154.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▓ ▓ ░ · · · · ▒ ▓ ▒ ▒ ░ ░ · · · · █ █ █ · ▒ · ░ · ▓ ▒ █ ·   </text>
+<text x="104" y="174.0" font-size="15" fill="#8a4a4a" xml:space="preserve">fri   </text>
+<text x="158" y="174.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▒ ▒ · · · ▒ · ▓ ▓ ▓ ▓ · · · ░ · · ░ ░ ▒ ░ ▒ · ▒ · ▒ ▓ ▓ ▒   </text>
+<text x="104" y="194.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="194.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· · · · · · · · · ▒ · · · · · · · ░ · · · · · · · · · · ░   </text>
+<text x="104" y="214.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="214.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▒ · · · ░ · · · ░ · · · · · · · ░ · · · · · · · · · · · ░   </text>
+<text x="158" y="246.0" font-size="15" fill="#f2d0c9" xml:space="preserve">706 contributions in the last 30 weeks</text>
+<text x="527" y="246.0" font-size="15" fill="#c05656" xml:space="preserve">less </text>
+<text x="572" y="246.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· ░ ▒ ▓ █</text>
+<text x="665" y="246.0" font-size="15" fill="#c05656">more</text>
+<animate attributeName="opacity" calcMode="discrete" begin="0s" dur="7.0s" repeatCount="indefinite" keyTimes="0.0000;0.0714;0.1429;0.2143;0.2857;0.3571;0.4286;0.5000;0.5714;0.6429;0.7143;0.7857;0.8571;0.9286;1.0000" values="1;0;0;0;0;0;0;0;0;0;0;0;0;0;0"/>
+</g>
+<g opacity="0">
+<text x="104" y="74.0" font-size="15" fill="#ff8c69" xml:space="preserve">      aug   sep       oct     nov     dec       jan     feb       </text>
+<text x="104" y="94.0" font-size="15" fill="#8a4a4a" xml:space="preserve">mon   </text>
+<text x="158" y="94.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▓ ▒ · · ░ · · ▓ ▓ █ ▒ · ░ · · · ▓ ▓ █ █ · ▒ ░ ░ · ▒ █ ▒ █ ░ </text>
+<text x="104" y="114.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="114.0" font-size="15" fill="#ff5f5f" xml:space="preserve">░ █ · · ░ · ▓ ▒ ▓ █ ▓ ▒ · ░ ▒ · · ▓ ▓ ▓ ▓ · ▒ ▒ ▓ ▒ ░ ▒ · ▒ </text>
+<text x="104" y="134.0" font-size="15" fill="#8a4a4a" xml:space="preserve">wed   </text>
+<text x="158" y="134.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▓ · · · ░ · ▒ ▓ ▒ █ ▓ ▒ · ░ ▒ · ░ █ █ ▒ · · ▒ ▒ · ▒ ▓ ░ █   </text>
+<text x="104" y="154.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="154.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▓ ▓ ░ · · · · ▒ ▓ ▒ ▒ ░ ░ · · · · █ █ █ · ▒ · ░ · ▓ ▒ █ ·   </text>
+<text x="104" y="174.0" font-size="15" fill="#8a4a4a" xml:space="preserve">fri   </text>
+<text x="158" y="174.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▒ ▒ · · · ▒ · ▓ ▓ ▓ ▓ · · · ░ · · ░ ░ ▒ ░ ▒ · ▒ · ▒ ▓ ▓ ▒   </text>
+<text x="104" y="194.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="194.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· · · · · · · · · ▒ · · · · · · · ░ · · · · · · · · · · ░   </text>
+<text x="104" y="214.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="214.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▒ · · · ░ · · · ░ · · · · · · · ░ · · · · · · · · · · · ░   </text>
+<text x="158" y="246.0" font-size="15" fill="#f2d0c9" xml:space="preserve">710 contributions in the last 30 weeks</text>
+<text x="527" y="246.0" font-size="15" fill="#c05656" xml:space="preserve">less </text>
+<text x="572" y="246.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· ░ ▒ ▓ █</text>
+<text x="665" y="246.0" font-size="15" fill="#c05656">more</text>
+<animate attributeName="opacity" calcMode="discrete" begin="0s" dur="7.0s" repeatCount="indefinite" keyTimes="0.0000;0.0714;0.1429;0.2143;0.2857;0.3571;0.4286;0.5000;0.5714;0.6429;0.7143;0.7857;0.8571;0.9286;1.0000" values="0;1;0;0;0;0;0;0;0;0;0;0;0;0;0"/>
+</g>
+<g opacity="0">
+<text x="104" y="74.0" font-size="15" fill="#ff8c69" xml:space="preserve">      aug   sep       oct     nov     dec       jan     feb       </text>
+<text x="104" y="94.0" font-size="15" fill="#8a4a4a" xml:space="preserve">mon   </text>
+<text x="158" y="94.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▓ ▒ · · ░ · · ▓ ▓ █ ▒ · ░ · · · ▓ ▓ █ █ · ▒ ░ ░ · ▒ █ ▒ █ ░ </text>
+<text x="104" y="114.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="114.0" font-size="15" fill="#ff5f5f" xml:space="preserve">░ █ · · ░ · ▓ ▒ ▓ █ ▓ ▒ · ░ ▒ · · ▓ ▓ ▓ ▓ · ▒ ▒ ▓ ▒ ░ ▒ · ▒ </text>
+<text x="104" y="134.0" font-size="15" fill="#8a4a4a" xml:space="preserve">wed   </text>
+<text x="158" y="134.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▓ · · · ░ · ▒ ▓ ▒ █ ▓ ▒ · ░ ▒ · ░ █ █ ▒ · · ▒ ▒ · ▒ ▓ ░ █ · </text>
+<text x="104" y="154.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="154.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▓ ▓ ░ · · · · ▒ ▓ ▒ ▒ ░ ░ · · · · █ █ █ · ▒ · ░ · ▓ ▒ █ ·   </text>
+<text x="104" y="174.0" font-size="15" fill="#8a4a4a" xml:space="preserve">fri   </text>
+<text x="158" y="174.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▒ ▒ · · · ▒ · ▓ ▓ ▓ ▓ · · · ░ · · ░ ░ ▒ ░ ▒ · ▒ · ▒ ▓ ▓ ▒   </text>
+<text x="104" y="194.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="194.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· · · · · · · · · ▒ · · · · · · · ░ · · · · · · · · · · ░   </text>
+<text x="104" y="214.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="214.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▒ · · · ░ · · · ░ · · · · · · · ░ · · · · · · · · · · · ░   </text>
+<text x="158" y="246.0" font-size="15" fill="#f2d0c9" xml:space="preserve">710 contributions in the last 30 weeks</text>
+<text x="527" y="246.0" font-size="15" fill="#c05656" xml:space="preserve">less </text>
+<text x="572" y="246.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· ░ ▒ ▓ █</text>
+<text x="665" y="246.0" font-size="15" fill="#c05656">more</text>
+<animate attributeName="opacity" calcMode="discrete" begin="0s" dur="7.0s" repeatCount="indefinite" keyTimes="0.0000;0.0714;0.1429;0.2143;0.2857;0.3571;0.4286;0.5000;0.5714;0.6429;0.7143;0.7857;0.8571;0.9286;1.0000" values="0;0;1;0;0;0;0;0;0;0;0;0;0;0;0"/>
+</g>
+<g opacity="0">
+<text x="104" y="74.0" font-size="15" fill="#ff8c69" xml:space="preserve">      aug   sep       oct     nov     dec       jan     feb       </text>
+<text x="104" y="94.0" font-size="15" fill="#8a4a4a" xml:space="preserve">mon   </text>
+<text x="158" y="94.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▓ ▒ · · ░ · · ▓ ▓ █ ▒ · ░ · · · ▓ ▓ █ █ · ▒ ░ ░ · ▒ █ ▒ █ ░ </text>
+<text x="104" y="114.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="114.0" font-size="15" fill="#ff5f5f" xml:space="preserve">░ █ · · ░ · ▓ ▒ ▓ █ ▓ ▒ · ░ ▒ · · ▓ ▓ ▓ ▓ · ▒ ▒ ▓ ▒ ░ ▒ · ▒ </text>
+<text x="104" y="134.0" font-size="15" fill="#8a4a4a" xml:space="preserve">wed   </text>
+<text x="158" y="134.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▓ · · · ░ · ▒ ▓ ▒ █ ▓ ▒ · ░ ▒ · ░ █ █ ▒ · · ▒ ▒ · ▒ ▓ ░ █ · </text>
+<text x="104" y="154.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="154.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▓ ▓ ░ · · · · ▒ ▓ ▒ ▒ ░ ░ · · · · █ █ █ · ▒ · ░ · ▓ ▒ █ · ░ </text>
+<text x="104" y="174.0" font-size="15" fill="#8a4a4a" xml:space="preserve">fri   </text>
+<text x="158" y="174.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▒ ▒ · · · ▒ · ▓ ▓ ▓ ▓ · · · ░ · · ░ ░ ▒ ░ ▒ · ▒ · ▒ ▓ ▓ ▒   </text>
+<text x="104" y="194.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="194.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· · · · · · · · · ▒ · · · · · · · ░ · · · · · · · · · · ░   </text>
+<text x="104" y="214.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="214.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▒ · · · ░ · · · ░ · · · · · · · ░ · · · · · · · · · · · ░   </text>
+<text x="158" y="246.0" font-size="15" fill="#f2d0c9" xml:space="preserve">713 contributions in the last 30 weeks</text>
+<text x="527" y="246.0" font-size="15" fill="#c05656" xml:space="preserve">less </text>
+<text x="572" y="246.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· ░ ▒ ▓ █</text>
+<text x="665" y="246.0" font-size="15" fill="#c05656">more</text>
+<animate attributeName="opacity" calcMode="discrete" begin="0s" dur="7.0s" repeatCount="indefinite" keyTimes="0.0000;0.0714;0.1429;0.2143;0.2857;0.3571;0.4286;0.5000;0.5714;0.6429;0.7143;0.7857;0.8571;0.9286;1.0000" values="0;0;0;1;0;0;0;0;0;0;0;0;0;0;0"/>
+</g>
+<g opacity="0">
+<text x="104" y="74.0" font-size="15" fill="#ff8c69" xml:space="preserve">      aug   sep       oct     nov     dec       jan     feb       </text>
+<text x="104" y="94.0" font-size="15" fill="#8a4a4a" xml:space="preserve">mon   </text>
+<text x="158" y="94.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▓ ▒ · · ░ · · ▓ ▓ █ ▒ · ░ · · · ▓ ▓ █ █ · ▒ ░ ░ · ▒ █ ▒ █ ░ </text>
+<text x="104" y="114.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="114.0" font-size="15" fill="#ff5f5f" xml:space="preserve">░ █ · · ░ · ▓ ▒ ▓ █ ▓ ▒ · ░ ▒ · · ▓ ▓ ▓ ▓ · ▒ ▒ ▓ ▒ ░ ▒ · ▒ </text>
+<text x="104" y="134.0" font-size="15" fill="#8a4a4a" xml:space="preserve">wed   </text>
+<text x="158" y="134.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▓ · · · ░ · ▒ ▓ ▒ █ ▓ ▒ · ░ ▒ · ░ █ █ ▒ · · ▒ ▒ · ▒ ▓ ░ █ · </text>
+<text x="104" y="154.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="154.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▓ ▓ ░ · · · · ▒ ▓ ▒ ▒ ░ ░ · · · · █ █ █ · ▒ · ░ · ▓ ▒ █ · ░ </text>
+<text x="104" y="174.0" font-size="15" fill="#8a4a4a" xml:space="preserve">fri   </text>
+<text x="158" y="174.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▒ ▒ · · · ▒ · ▓ ▓ ▓ ▓ · · · ░ · · ░ ░ ▒ ░ ▒ · ▒ · ▒ ▓ ▓ ▒ ▒ </text>
+<text x="104" y="194.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="194.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· · · · · · · · · ▒ · · · · · · · ░ · · · · · · · · · · ░   </text>
+<text x="104" y="214.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="214.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▒ · · · ░ · · · ░ · · · · · · · ░ · · · · · · · · · · · ░   </text>
+<text x="158" y="246.0" font-size="15" fill="#f2d0c9" xml:space="preserve">718 contributions in the last 30 weeks</text>
+<text x="527" y="246.0" font-size="15" fill="#c05656" xml:space="preserve">less </text>
+<text x="572" y="246.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· ░ ▒ ▓ █</text>
+<text x="665" y="246.0" font-size="15" fill="#c05656">more</text>
+<animate attributeName="opacity" calcMode="discrete" begin="0s" dur="7.0s" repeatCount="indefinite" keyTimes="0.0000;0.0714;0.1429;0.2143;0.2857;0.3571;0.4286;0.5000;0.5714;0.6429;0.7143;0.7857;0.8571;0.9286;1.0000" values="0;0;0;0;1;0;0;0;0;0;0;0;0;0;0"/>
+</g>
+<g opacity="0">
+<text x="104" y="74.0" font-size="15" fill="#ff8c69" xml:space="preserve">      aug   sep       oct     nov     dec       jan     feb       </text>
+<text x="104" y="94.0" font-size="15" fill="#8a4a4a" xml:space="preserve">mon   </text>
+<text x="158" y="94.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▓ ▒ · · ░ · · ▓ ▓ █ ▒ · ░ · · · ▓ ▓ █ █ · ▒ ░ ░ · ▒ █ ▒ █ ░ </text>
+<text x="104" y="114.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="114.0" font-size="15" fill="#ff5f5f" xml:space="preserve">░ █ · · ░ · ▓ ▒ ▓ █ ▓ ▒ · ░ ▒ · · ▓ ▓ ▓ ▓ · ▒ ▒ ▓ ▒ ░ ▒ · ▒ </text>
+<text x="104" y="134.0" font-size="15" fill="#8a4a4a" xml:space="preserve">wed   </text>
+<text x="158" y="134.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▓ · · · ░ · ▒ ▓ ▒ █ ▓ ▒ · ░ ▒ · ░ █ █ ▒ · · ▒ ▒ · ▒ ▓ ░ █ · </text>
+<text x="104" y="154.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="154.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▓ ▓ ░ · · · · ▒ ▓ ▒ ▒ ░ ░ · · · · █ █ █ · ▒ · ░ · ▓ ▒ █ · ░ </text>
+<text x="104" y="174.0" font-size="15" fill="#8a4a4a" xml:space="preserve">fri   </text>
+<text x="158" y="174.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▒ ▒ · · · ▒ · ▓ ▓ ▓ ▓ · · · ░ · · ░ ░ ▒ ░ ▒ · ▒ · ▒ ▓ ▓ ▒ ▒ </text>
+<text x="104" y="194.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="194.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· · · · · · · · · ▒ · · · · · · · ░ · · · · · · · · · · ░ · </text>
+<text x="104" y="214.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="214.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▒ · · · ░ · · · ░ · · · · · · · ░ · · · · · · · · · · · ░   </text>
+<text x="158" y="246.0" font-size="15" fill="#f2d0c9" xml:space="preserve">718 contributions in the last 30 weeks</text>
+<text x="527" y="246.0" font-size="15" fill="#c05656" xml:space="preserve">less </text>
+<text x="572" y="246.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· ░ ▒ ▓ █</text>
+<text x="665" y="246.0" font-size="15" fill="#c05656">more</text>
+<animate attributeName="opacity" calcMode="discrete" begin="0s" dur="7.0s" repeatCount="indefinite" keyTimes="0.0000;0.0714;0.1429;0.2143;0.2857;0.3571;0.4286;0.5000;0.5714;0.6429;0.7143;0.7857;0.8571;0.9286;1.0000" values="0;0;0;0;0;1;0;0;0;0;0;0;0;0;0"/>
+</g>
+<g opacity="0">
+<text x="104" y="74.0" font-size="15" fill="#ff8c69" xml:space="preserve">      aug   sep       oct     nov     dec       jan     feb       </text>
+<text x="104" y="94.0" font-size="15" fill="#8a4a4a" xml:space="preserve">mon   </text>
+<text x="158" y="94.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▓ ▒ · · ░ · · ▓ ▓ █ ▒ · ░ · · · ▓ ▓ █ █ · ▒ ░ ░ · ▒ █ ▒ █ ░ </text>
+<text x="104" y="114.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="114.0" font-size="15" fill="#ff5f5f" xml:space="preserve">░ █ · · ░ · ▓ ▒ ▓ █ ▓ ▒ · ░ ▒ · · ▓ ▓ ▓ ▓ · ▒ ▒ ▓ ▒ ░ ▒ · ▒ </text>
+<text x="104" y="134.0" font-size="15" fill="#8a4a4a" xml:space="preserve">wed   </text>
+<text x="158" y="134.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▓ · · · ░ · ▒ ▓ ▒ █ ▓ ▒ · ░ ▒ · ░ █ █ ▒ · · ▒ ▒ · ▒ ▓ ░ █ · </text>
+<text x="104" y="154.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="154.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▓ ▓ ░ · · · · ▒ ▓ ▒ ▒ ░ ░ · · · · █ █ █ · ▒ · ░ · ▓ ▒ █ · ░ </text>
+<text x="104" y="174.0" font-size="15" fill="#8a4a4a" xml:space="preserve">fri   </text>
+<text x="158" y="174.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▒ ▒ · · · ▒ · ▓ ▓ ▓ ▓ · · · ░ · · ░ ░ ▒ ░ ▒ · ▒ · ▒ ▓ ▓ ▒ ▒ </text>
+<text x="104" y="194.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="194.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· · · · · · · · · ▒ · · · · · · · ░ · · · · · · · · · · ░ · </text>
+<text x="104" y="214.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="214.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▒ · · · ░ · · · ░ · · · · · · · ░ · · · · · · · · · · · ░ · </text>
+<text x="158" y="246.0" font-size="15" fill="#f2d0c9" xml:space="preserve">718 contributions in the last 30 weeks</text>
+<text x="527" y="246.0" font-size="15" fill="#c05656" xml:space="preserve">less </text>
+<text x="572" y="246.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· ░ ▒ ▓ █</text>
+<text x="665" y="246.0" font-size="15" fill="#c05656">more</text>
+<animate attributeName="opacity" calcMode="discrete" begin="0s" dur="7.0s" repeatCount="indefinite" keyTimes="0.0000;0.0714;0.1429;0.2143;0.2857;0.3571;0.4286;0.5000;0.5714;0.6429;0.7143;0.7857;0.8571;0.9286;1.0000" values="0;0;0;0;0;0;1;0;0;0;0;0;0;0;0"/>
+</g>
+<g opacity="0">
+<text x="104" y="74.0" font-size="15" fill="#ff8c69" xml:space="preserve">          sep       oct     nov     dec       jan     feb     mar </text>
+<text x="104" y="94.0" font-size="15" fill="#8a4a4a" xml:space="preserve">mon   </text>
+<text x="158" y="94.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▒ · · ░ · · ▓ ▓ █ ▒ · ░ · · · ▓ ▓ █ █ · ▒ ░ ░ · ▒ █ ▒ █ ░ · </text>
+<text x="104" y="114.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="114.0" font-size="15" fill="#ff5f5f" xml:space="preserve">█ · · ░ · ▓ ▒ ▓ █ ▓ ▒ · ░ ▒ · · ▓ ▓ ▓ ▓ · ▒ ▒ ▓ ▒ ░ ▒ · ▒   </text>
+<text x="104" y="134.0" font-size="15" fill="#8a4a4a" xml:space="preserve">wed   </text>
+<text x="158" y="134.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· · · ░ · ▒ ▓ ▒ █ ▓ ▒ · ░ ▒ · ░ █ █ ▒ · · ▒ ▒ · ▒ ▓ ░ █ ·   </text>
+<text x="104" y="154.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="154.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▓ ░ · · · · ▒ ▓ ▒ ▒ ░ ░ · · · · █ █ █ · ▒ · ░ · ▓ ▒ █ · ░   </text>
+<text x="104" y="174.0" font-size="15" fill="#8a4a4a" xml:space="preserve">fri   </text>
+<text x="158" y="174.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▒ · · · ▒ · ▓ ▓ ▓ ▓ · · · ░ · · ░ ░ ▒ ░ ▒ · ▒ · ▒ ▓ ▓ ▒ ▒   </text>
+<text x="104" y="194.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="194.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· · · · · · · · ▒ · · · · · · · ░ · · · · · · · · · · ░ ·   </text>
+<text x="104" y="214.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="214.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· · · ░ · · · ░ · · · · · · · ░ · · · · · · · · · · · ░ ·   </text>
+<text x="158" y="246.0" font-size="15" fill="#f2d0c9" xml:space="preserve">675 contributions in the last 30 weeks</text>
+<text x="527" y="246.0" font-size="15" fill="#c05656" xml:space="preserve">less </text>
+<text x="572" y="246.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· ░ ▒ ▓ █</text>
+<text x="665" y="246.0" font-size="15" fill="#c05656">more</text>
+<animate attributeName="opacity" calcMode="discrete" begin="0s" dur="7.0s" repeatCount="indefinite" keyTimes="0.0000;0.0714;0.1429;0.2143;0.2857;0.3571;0.4286;0.5000;0.5714;0.6429;0.7143;0.7857;0.8571;0.9286;1.0000" values="0;0;0;0;0;0;0;1;0;0;0;0;0;0;0"/>
+</g>
+<g opacity="0">
+<text x="104" y="74.0" font-size="15" fill="#ff8c69" xml:space="preserve">          sep       oct     nov     dec       jan     feb     mar </text>
+<text x="104" y="94.0" font-size="15" fill="#8a4a4a" xml:space="preserve">mon   </text>
+<text x="158" y="94.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▒ · · ░ · · ▓ ▓ █ ▒ · ░ · · · ▓ ▓ █ █ · ▒ ░ ░ · ▒ █ ▒ █ ░ · </text>
+<text x="104" y="114.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="114.0" font-size="15" fill="#ff5f5f" xml:space="preserve">█ · · ░ · ▓ ▒ ▓ █ ▓ ▒ · ░ ▒ · · ▓ ▓ ▓ ▓ · ▒ ▒ ▓ ▒ ░ ▒ · ▒ · </text>
+<text x="104" y="134.0" font-size="15" fill="#8a4a4a" xml:space="preserve">wed   </text>
+<text x="158" y="134.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· · · ░ · ▒ ▓ ▒ █ ▓ ▒ · ░ ▒ · ░ █ █ ▒ · · ▒ ▒ · ▒ ▓ ░ █ ·   </text>
+<text x="104" y="154.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="154.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▓ ░ · · · · ▒ ▓ ▒ ▒ ░ ░ · · · · █ █ █ · ▒ · ░ · ▓ ▒ █ · ░   </text>
+<text x="104" y="174.0" font-size="15" fill="#8a4a4a" xml:space="preserve">fri   </text>
+<text x="158" y="174.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▒ · · · ▒ · ▓ ▓ ▓ ▓ · · · ░ · · ░ ░ ▒ ░ ▒ · ▒ · ▒ ▓ ▓ ▒ ▒   </text>
+<text x="104" y="194.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="194.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· · · · · · · · ▒ · · · · · · · ░ · · · · · · · · · · ░ ·   </text>
+<text x="104" y="214.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="214.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· · · ░ · · · ░ · · · · · · · ░ · · · · · · · · · · · ░ ·   </text>
+<text x="158" y="246.0" font-size="15" fill="#f2d0c9" xml:space="preserve">675 contributions in the last 30 weeks</text>
+<text x="527" y="246.0" font-size="15" fill="#c05656" xml:space="preserve">less </text>
+<text x="572" y="246.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· ░ ▒ ▓ █</text>
+<text x="665" y="246.0" font-size="15" fill="#c05656">more</text>
+<animate attributeName="opacity" calcMode="discrete" begin="0s" dur="7.0s" repeatCount="indefinite" keyTimes="0.0000;0.0714;0.1429;0.2143;0.2857;0.3571;0.4286;0.5000;0.5714;0.6429;0.7143;0.7857;0.8571;0.9286;1.0000" values="0;0;0;0;0;0;0;0;1;0;0;0;0;0;0"/>
+</g>
+<g opacity="0">
+<text x="104" y="74.0" font-size="15" fill="#ff8c69" xml:space="preserve">          sep       oct     nov     dec       jan     feb     mar </text>
+<text x="104" y="94.0" font-size="15" fill="#8a4a4a" xml:space="preserve">mon   </text>
+<text x="158" y="94.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▒ · · ░ · · ▓ ▓ █ ▒ · ░ · · · ▓ ▓ █ █ · ▒ ░ ░ · ▒ █ ▒ █ ░ · </text>
+<text x="104" y="114.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="114.0" font-size="15" fill="#ff5f5f" xml:space="preserve">█ · · ░ · ▓ ▒ ▓ █ ▓ ▒ · ░ ▒ · · ▓ ▓ ▓ ▓ · ▒ ▒ ▓ ▒ ░ ▒ · ▒ · </text>
+<text x="104" y="134.0" font-size="15" fill="#8a4a4a" xml:space="preserve">wed   </text>
+<text x="158" y="134.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· · · ░ · ▒ ▓ ▒ █ ▓ ▒ · ░ ▒ · ░ █ █ ▒ · · ▒ ▒ · ▒ ▓ ░ █ · ░ </text>
+<text x="104" y="154.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="154.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▓ ░ · · · · ▒ ▓ ▒ ▒ ░ ░ · · · · █ █ █ · ▒ · ░ · ▓ ▒ █ · ░   </text>
+<text x="104" y="174.0" font-size="15" fill="#8a4a4a" xml:space="preserve">fri   </text>
+<text x="158" y="174.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▒ · · · ▒ · ▓ ▓ ▓ ▓ · · · ░ · · ░ ░ ▒ ░ ▒ · ▒ · ▒ ▓ ▓ ▒ ▒   </text>
+<text x="104" y="194.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="194.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· · · · · · · · ▒ · · · · · · · ░ · · · · · · · · · · ░ ·   </text>
+<text x="104" y="214.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="214.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· · · ░ · · · ░ · · · · · · · ░ · · · · · · · · · · · ░ ·   </text>
+<text x="158" y="246.0" font-size="15" fill="#f2d0c9" xml:space="preserve">678 contributions in the last 30 weeks</text>
+<text x="527" y="246.0" font-size="15" fill="#c05656" xml:space="preserve">less </text>
+<text x="572" y="246.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· ░ ▒ ▓ █</text>
+<text x="665" y="246.0" font-size="15" fill="#c05656">more</text>
+<animate attributeName="opacity" calcMode="discrete" begin="0s" dur="7.0s" repeatCount="indefinite" keyTimes="0.0000;0.0714;0.1429;0.2143;0.2857;0.3571;0.4286;0.5000;0.5714;0.6429;0.7143;0.7857;0.8571;0.9286;1.0000" values="0;0;0;0;0;0;0;0;0;1;0;0;0;0;0"/>
+</g>
+<g opacity="0">
+<text x="104" y="74.0" font-size="15" fill="#ff8c69" xml:space="preserve">          sep       oct     nov     dec       jan     feb     mar </text>
+<text x="104" y="94.0" font-size="15" fill="#8a4a4a" xml:space="preserve">mon   </text>
+<text x="158" y="94.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▒ · · ░ · · ▓ ▓ █ ▒ · ░ · · · ▓ ▓ █ █ · ▒ ░ ░ · ▒ █ ▒ █ ░ · </text>
+<text x="104" y="114.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="114.0" font-size="15" fill="#ff5f5f" xml:space="preserve">█ · · ░ · ▓ ▒ ▓ █ ▓ ▒ · ░ ▒ · · ▓ ▓ ▓ ▓ · ▒ ▒ ▓ ▒ ░ ▒ · ▒ · </text>
+<text x="104" y="134.0" font-size="15" fill="#8a4a4a" xml:space="preserve">wed   </text>
+<text x="158" y="134.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· · · ░ · ▒ ▓ ▒ █ ▓ ▒ · ░ ▒ · ░ █ █ ▒ · · ▒ ▒ · ▒ ▓ ░ █ · ░ </text>
+<text x="104" y="154.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="154.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▓ ░ · · · · ▒ ▓ ▒ ▒ ░ ░ · · · · █ █ █ · ▒ · ░ · ▓ ▒ █ · ░ · </text>
+<text x="104" y="174.0" font-size="15" fill="#8a4a4a" xml:space="preserve">fri   </text>
+<text x="158" y="174.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▒ · · · ▒ · ▓ ▓ ▓ ▓ · · · ░ · · ░ ░ ▒ ░ ▒ · ▒ · ▒ ▓ ▓ ▒ ▒   </text>
+<text x="104" y="194.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="194.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· · · · · · · · ▒ · · · · · · · ░ · · · · · · · · · · ░ ·   </text>
+<text x="104" y="214.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="214.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· · · ░ · · · ░ · · · · · · · ░ · · · · · · · · · · · ░ ·   </text>
+<text x="158" y="246.0" font-size="15" fill="#f2d0c9" xml:space="preserve">678 contributions in the last 30 weeks</text>
+<text x="527" y="246.0" font-size="15" fill="#c05656" xml:space="preserve">less </text>
+<text x="572" y="246.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· ░ ▒ ▓ █</text>
+<text x="665" y="246.0" font-size="15" fill="#c05656">more</text>
+<animate attributeName="opacity" calcMode="discrete" begin="0s" dur="7.0s" repeatCount="indefinite" keyTimes="0.0000;0.0714;0.1429;0.2143;0.2857;0.3571;0.4286;0.5000;0.5714;0.6429;0.7143;0.7857;0.8571;0.9286;1.0000" values="0;0;0;0;0;0;0;0;0;0;1;0;0;0;0"/>
+</g>
+<g opacity="0">
+<text x="104" y="74.0" font-size="15" fill="#ff8c69" xml:space="preserve">          sep       oct     nov     dec       jan     feb     mar </text>
+<text x="104" y="94.0" font-size="15" fill="#8a4a4a" xml:space="preserve">mon   </text>
+<text x="158" y="94.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▒ · · ░ · · ▓ ▓ █ ▒ · ░ · · · ▓ ▓ █ █ · ▒ ░ ░ · ▒ █ ▒ █ ░ · </text>
+<text x="104" y="114.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="114.0" font-size="15" fill="#ff5f5f" xml:space="preserve">█ · · ░ · ▓ ▒ ▓ █ ▓ ▒ · ░ ▒ · · ▓ ▓ ▓ ▓ · ▒ ▒ ▓ ▒ ░ ▒ · ▒ · </text>
+<text x="104" y="134.0" font-size="15" fill="#8a4a4a" xml:space="preserve">wed   </text>
+<text x="158" y="134.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· · · ░ · ▒ ▓ ▒ █ ▓ ▒ · ░ ▒ · ░ █ █ ▒ · · ▒ ▒ · ▒ ▓ ░ █ · ░ </text>
+<text x="104" y="154.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="154.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▓ ░ · · · · ▒ ▓ ▒ ▒ ░ ░ · · · · █ █ █ · ▒ · ░ · ▓ ▒ █ · ░ · </text>
+<text x="104" y="174.0" font-size="15" fill="#8a4a4a" xml:space="preserve">fri   </text>
+<text x="158" y="174.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▒ · · · ▒ · ▓ ▓ ▓ ▓ · · · ░ · · ░ ░ ▒ ░ ▒ · ▒ · ▒ ▓ ▓ ▒ ▒ ░ </text>
+<text x="104" y="194.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="194.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· · · · · · · · ▒ · · · · · · · ░ · · · · · · · · · · ░ ·   </text>
+<text x="104" y="214.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="214.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· · · ░ · · · ░ · · · · · · · ░ · · · · · · · · · · · ░ ·   </text>
+<text x="158" y="246.0" font-size="15" fill="#f2d0c9" xml:space="preserve">681 contributions in the last 30 weeks</text>
+<text x="527" y="246.0" font-size="15" fill="#c05656" xml:space="preserve">less </text>
+<text x="572" y="246.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· ░ ▒ ▓ █</text>
+<text x="665" y="246.0" font-size="15" fill="#c05656">more</text>
+<animate attributeName="opacity" calcMode="discrete" begin="0s" dur="7.0s" repeatCount="indefinite" keyTimes="0.0000;0.0714;0.1429;0.2143;0.2857;0.3571;0.4286;0.5000;0.5714;0.6429;0.7143;0.7857;0.8571;0.9286;1.0000" values="0;0;0;0;0;0;0;0;0;0;0;1;0;0;0"/>
+</g>
+<g opacity="0">
+<text x="104" y="74.0" font-size="15" fill="#ff8c69" xml:space="preserve">          sep       oct     nov     dec       jan     feb     mar </text>
+<text x="104" y="94.0" font-size="15" fill="#8a4a4a" xml:space="preserve">mon   </text>
+<text x="158" y="94.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▒ · · ░ · · ▓ ▓ █ ▒ · ░ · · · ▓ ▓ █ █ · ▒ ░ ░ · ▒ █ ▒ █ ░ · </text>
+<text x="104" y="114.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="114.0" font-size="15" fill="#ff5f5f" xml:space="preserve">█ · · ░ · ▓ ▒ ▓ █ ▓ ▒ · ░ ▒ · · ▓ ▓ ▓ ▓ · ▒ ▒ ▓ ▒ ░ ▒ · ▒ · </text>
+<text x="104" y="134.0" font-size="15" fill="#8a4a4a" xml:space="preserve">wed   </text>
+<text x="158" y="134.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· · · ░ · ▒ ▓ ▒ █ ▓ ▒ · ░ ▒ · ░ █ █ ▒ · · ▒ ▒ · ▒ ▓ ░ █ · ░ </text>
+<text x="104" y="154.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="154.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▓ ░ · · · · ▒ ▓ ▒ ▒ ░ ░ · · · · █ █ █ · ▒ · ░ · ▓ ▒ █ · ░ · </text>
+<text x="104" y="174.0" font-size="15" fill="#8a4a4a" xml:space="preserve">fri   </text>
+<text x="158" y="174.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▒ · · · ▒ · ▓ ▓ ▓ ▓ · · · ░ · · ░ ░ ▒ ░ ▒ · ▒ · ▒ ▓ ▓ ▒ ▒ ░ </text>
+<text x="104" y="194.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="194.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· · · · · · · · ▒ · · · · · · · ░ · · · · · · · · · · ░ · · </text>
+<text x="104" y="214.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="214.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· · · ░ · · · ░ · · · · · · · ░ · · · · · · · · · · · ░ ·   </text>
+<text x="158" y="246.0" font-size="15" fill="#f2d0c9" xml:space="preserve">681 contributions in the last 30 weeks</text>
+<text x="527" y="246.0" font-size="15" fill="#c05656" xml:space="preserve">less </text>
+<text x="572" y="246.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· ░ ▒ ▓ █</text>
+<text x="665" y="246.0" font-size="15" fill="#c05656">more</text>
+<animate attributeName="opacity" calcMode="discrete" begin="0s" dur="7.0s" repeatCount="indefinite" keyTimes="0.0000;0.0714;0.1429;0.2143;0.2857;0.3571;0.4286;0.5000;0.5714;0.6429;0.7143;0.7857;0.8571;0.9286;1.0000" values="0;0;0;0;0;0;0;0;0;0;0;0;1;0;0"/>
+</g>
+<g opacity="0">
+<text x="104" y="74.0" font-size="15" fill="#ff8c69" xml:space="preserve">          sep       oct     nov     dec       jan     feb     mar </text>
+<text x="104" y="94.0" font-size="15" fill="#8a4a4a" xml:space="preserve">mon   </text>
+<text x="158" y="94.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▒ · · ░ · · ▓ ▓ █ ▒ · ░ · · · ▓ ▓ █ █ · ▒ ░ ░ · ▒ █ ▒ █ ░ · </text>
+<text x="104" y="114.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="114.0" font-size="15" fill="#ff5f5f" xml:space="preserve">█ · · ░ · ▓ ▒ ▓ █ ▓ ▒ · ░ ▒ · · ▓ ▓ ▓ ▓ · ▒ ▒ ▓ ▒ ░ ▒ · ▒ · </text>
+<text x="104" y="134.0" font-size="15" fill="#8a4a4a" xml:space="preserve">wed   </text>
+<text x="158" y="134.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· · · ░ · ▒ ▓ ▒ █ ▓ ▒ · ░ ▒ · ░ █ █ ▒ · · ▒ ▒ · ▒ ▓ ░ █ · ░ </text>
+<text x="104" y="154.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="154.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▓ ░ · · · · ▒ ▓ ▒ ▒ ░ ░ · · · · █ █ █ · ▒ · ░ · ▓ ▒ █ · ░ · </text>
+<text x="104" y="174.0" font-size="15" fill="#8a4a4a" xml:space="preserve">fri   </text>
+<text x="158" y="174.0" font-size="15" fill="#ff5f5f" xml:space="preserve">▒ · · · ▒ · ▓ ▓ ▓ ▓ · · · ░ · · ░ ░ ▒ ░ ▒ · ▒ · ▒ ▓ ▓ ▒ ▒ ░ </text>
+<text x="104" y="194.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="194.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· · · · · · · · ▒ · · · · · · · ░ · · · · · · · · · · ░ · · </text>
+<text x="104" y="214.0" font-size="15" fill="#8a4a4a" xml:space="preserve">      </text>
+<text x="158" y="214.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· · · ░ · · · ░ · · · · · · · ░ · · · · · · · · · · · ░ · · </text>
+<text x="158" y="246.0" font-size="15" fill="#f2d0c9" xml:space="preserve">681 contributions in the last 30 weeks</text>
+<text x="527" y="246.0" font-size="15" fill="#c05656" xml:space="preserve">less </text>
+<text x="572" y="246.0" font-size="15" fill="#ff5f5f" xml:space="preserve">· ░ ▒ ▓ █</text>
+<text x="665" y="246.0" font-size="15" fill="#c05656">more</text>
+<animate attributeName="opacity" calcMode="discrete" begin="0s" dur="7.0s" repeatCount="indefinite" keyTimes="0.0000;0.0714;0.1429;0.2143;0.2857;0.3571;0.4286;0.5000;0.5714;0.6429;0.7143;0.7857;0.8571;0.9286;1.0000" values="0;0;0;0;0;0;0;0;0;0;0;0;0;1;0"/>
+</g>
+</svg>
