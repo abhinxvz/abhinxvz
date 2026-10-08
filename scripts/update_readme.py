@@ -47,11 +47,15 @@ def main():
         f.write(svg)
     print(f"Generated {svg_path}")
 
-    # Generate animated heatmap SVG
+    # Generate stable heatmap SVG from real GitHub data
     try:
         import generate_heatmap
         heatmap_path = os.path.join(repo_root, "heatmap.svg")
-        heatmap_svg = generate_heatmap.generate_heatmap_svg()
+        heatmap_svg = generate_heatmap.generate_heatmap_svg(
+            username=cardlib.USERNAME,
+            token=os.environ.get("GITHUB_TOKEN"),
+            cached_svg_path=heatmap_path,
+        )
         with open(heatmap_path, "w", encoding="utf-8") as f:
             f.write(heatmap_svg)
         print(f"Generated {heatmap_path}")
