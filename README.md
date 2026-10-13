@@ -1,5 +1,8 @@
-<a href="https://github.com/abhinxvz"><img src="https://raw.githubusercontent.com/abhinxvz/abhinxvz/main/heatmap.svg" alt="abhinxvz contribution heatmap" width="100%" /></a>
+## about me:
+i am abhinav! 21 year old full stack dev | hobbyist coder, web engineer, front-end and back-end infrastructure enthusiast.
 
-<!--STATS:START-->
-<a href="https://abhinav-singh.tech"><img src="https://raw.githubusercontent.com/abhinxvz/abhinxvz/main/profile-card.svg" alt="abhinxvz GitHub stats" width="100%" /></a>
-<!--STATS:END-->
+## socials:
+## profiles:
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/abhinav-singh-a33026269)
+[![LeetCode](https://img.shields.io/badge/LeetCode-%23FFA116.svg?logo=leetcode&logoColor=white)](https://leetcode.com/u/prowlxcx/)
