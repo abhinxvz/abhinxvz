@@ -16,10 +16,6 @@ CARD_URL = os.environ.get(
     "CARD_URL",
     "https://raw.githubusercontent.com/abhinxvz/abhinxvz/main/profile-card.svg",
 )
-HEATMAP_URL = os.environ.get(
-    "HEATMAP_URL",
-    "https://raw.githubusercontent.com/abhinxvz/abhinxvz/main/heatmap.svg",
-)
 
 
 def main():
@@ -47,20 +43,6 @@ def main():
         f.write(svg)
     print(f"Generated {svg_path}")
 
-    # Generate stable heatmap SVG from real GitHub data
-    try:
-        import generate_heatmap
-        heatmap_path = os.path.join(repo_root, "heatmap.svg")
-        heatmap_svg = generate_heatmap.generate_heatmap_svg(
-            username=cardlib.USERNAME,
-            token=os.environ.get("GITHUB_TOKEN"),
-            cached_svg_path=heatmap_path,
-        )
-        with open(heatmap_path, "w", encoding="utf-8") as f:
-            f.write(heatmap_svg)
-        print(f"Generated {heatmap_path}")
-    except Exception as e:
-        print(f"Notice: Heatmap generation failed ({e})")
 
     start_marker = "<!--STATS:START-->"
     end_marker = "<!--STATS:END-->"
@@ -74,12 +56,6 @@ def main():
     if start_marker not in readme or end_marker not in readme:
         readme = f"{start_marker}\n{end_marker}\n"
 
-    if "heatmap.svg" not in readme:
-        heatmap_block = (
-            f'<a href="https://github.com/{cardlib.USERNAME}"><img src="{HEATMAP_URL}" '
-            'alt="abhinxvz contribution heatmap" width="100%" /></a>\n\n'
-        )
-        readme = heatmap_block + readme
 
     start_idx = readme.index(start_marker) + len(start_marker)
     end_idx = readme.index(end_marker)
